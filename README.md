@@ -5,7 +5,7 @@
 
 б) Склонировать проект с github:
 ```bash
-$ git pull https://github.com/teploff/surza_stub.git
+$ git clone https://github.com/teploff/surza_stub.git
 ```
 
 в) Перейти в репозиторий:
