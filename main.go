@@ -22,7 +22,7 @@ const timeFormat = "2006.01.02 15:04:05.000000"
 var (
 	src  = flag.String("src", "127.0.0.1:8091", "server listen src")
 	dest = flag.String("dest", "127.0.0.1:8092", "server listen src")
-	freq = flag.Duration("freq", time.Millisecond, "reactive power frequency")
+	freq = flag.Duration("freq", time.Second, "reactive power frequency")
 )
 
 type Payload struct {
